@@ -1,0 +1,31 @@
+#wrapper {
+    overflow: hidden;
+    background-image: url('/assets/img/backround-nav.png');
+}
+
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+    // background-image: url('/assets/image/fon.jpg');
+    
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    
+}

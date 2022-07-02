@@ -1,0 +1,49 @@
+#footer {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+	// z-index: 1000;
+    padding: 75px 0 100px 50px;
+    background-color: black;
+    .container {
+        max-width: 1095px;
+       
+    }
+    nav {
+        ul {
+            @extend %listreset;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        li {
+            text-align: center;
+            &:not(:last-child){
+                padding-right: 65px;
+            }
+           
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-size: 12px;
+                position: relative;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    bottom: 0px;
+                    height: 2px;
+                    width: 0%;
+                    top: 20px;
+                    background-color: red;
+                    transition: 0.2s;
+                }
+                &:hover {
+                    &:before {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

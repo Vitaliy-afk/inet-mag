@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr Thin';
+    src: url('../fonts/HelveticaNeueCyr-Thin.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue Cyr Bold';
+    src: url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@import "./vendors/include-media";
+@import "./base/variables";
+@import "./vendors/normalize";
+@import "./base/mixins";
+
+@import "./base/breakpoints";
+
+
+@import "./vendors/slick";
+@import "./vendors/slider";
+
+@import "./base/forms";
+@import "./base/functions";
+@import "./base/helpers";
+
+
+@import "./layouts/common";
+@import "./layouts/header";
+@import "./layouts/burger";
+@import "./layouts/footer";
+
+
+
+@import "./components/hero";
+@import "./components/content";
+@import "./components/content2";
+@import "./components/numbers";
+
+
+
+
+
+

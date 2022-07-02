@@ -1,0 +1,30 @@
+.content2 {
+    background-image: url('/assets/maket/content2.png');
+    background-size: cover;
+    .container {
+        max-width: 1335px;
+    }
+    .text {
+        padding: 240px 0 240px 30px;
+        color: white;
+        max-width: 756px;
+        font-family: 'Helvetica Neue Cyr Thin';
+        font-size: 12px;
+        div {
+            max-width: 740px;
+            text-align: right;
+            line-height: 1.7;
+            letter-spacing: 0.1em;
+        }
+    }
+    h3 {
+        font-size: 18px;
+        text-align: right;
+        padding-bottom: 35px;
+        letter-spacing: 0.14em;
+
+    }
+    p {
+        line-height: 1.7;
+    }
+}

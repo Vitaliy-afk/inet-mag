@@ -1,0 +1,171 @@
+.hero {
+    padding-top: 245px;
+    padding-bottom: 380px;
+    .container {
+        max-width: 1028px;
+    }
+}
+
+
+.slider__item {
+    max-width: 700px;
+}
+
+.slick-arrow{
+    position: absolute;
+    display: inline-flex;
+    outline: none; 
+    border: 0;
+    background: transparent;
+    color: white;
+    top: 15%;
+    z-index: 2;
+    @include media ('<640px'){
+        top: 10%;
+       
+    }
+    &:before {
+        content: "";
+        position: relative;
+        display: inline-flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        outline: 2px solid;
+        top: -7px;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        
+    }
+    
+} 
+
+
+.slick-next {
+    left: 65%;
+}
+.slick-prev {
+    right: 36%;
+}
+
+.name-hero {
+    font-family: 'Helvetica Neue Cyr Bold';
+    text-transform: uppercase;
+    padding-top: 100px;
+   
+   
+    h2 {
+        color: white;
+        font-size: 36px;
+        max-width: 800px;
+        font-weight: 100;
+        text-align: right;
+        letter-spacing: 1.7px;
+    }
+    h3 {
+        color: #f23005;
+        font-size: 80.23px;
+        mark {
+            background: none;
+            color: white;
+        }
+    }
+}
+    
+.slider__text {
+    font-family: 'Helvetica Neue Cyr Thin';
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+    
+    span {
+        
+    }
+    p{
+
+    }
+}
+
+
+
+
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-dots {
+    display: none;
+}
+
+.hero-form {
+    flex-wrap: wrap;
+    justify-content: right;
+    max-width: 700px;
+    @include media ('>860px'){
+        display: flex;
+    }
+    @include media ('<480px'){
+        
+    }
+    
+}
+
+
+
+.hero-form {
+    padding-top: 50px;
+    .button {
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 12px;
+        font-family: Roboto, Verdana, Tahoma, sans;
+        padding: 12px 40px;
+        // border-radius: 100px;
+        color: #fff;
+        min-width: 161px;
+        
+       
+    }
+}
+
+
+#button {
+
+}
+#button-1 {
+    background-color: black;
+    outline: 2px solid #fff;
+    
+    @include media ('<640px'){
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+    @include media ('<=360px'){
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    @include media ('>=840px'){
+        margin-right: 20px;
+    }
+    
+    // @include media ('<640px'){
+    //     margin-right: 0;
+    //     margin-bottom: 0px;
+    // }
+    
+}
+
+#button-2 {
+    background-color: #f23005;
+    
+    
+    &:hover {
+        background-color: #a53219;
+    }
+}
